@@ -9,7 +9,7 @@ const PRECACHE = [
   "./manifest.json",
   "./icon-192.png",
   "./icon-512.png",
-  "./QR_1.mp3" // ←ファイル名をあなたの実ファイルに合わせて
+  "./QR_3.mp3" // ←ファイル名をあなたの実ファイルに合わせて
 ];
 
 // インストール：事前キャッシュ
@@ -70,3 +70,4 @@ self.addEventListener("fetch", (event) => {
       .catch(() => caches.match(req))
   );
 });
+
